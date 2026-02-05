@@ -1,0 +1,2 @@
+model,params,seed,acc,f1,timestamp
+kNN (baseline), "n_neighbors=5 weights='distance' metric='minkowski'", 42, 0.9187, 0.9337, 2026-01-29
