@@ -1,2 +1,4 @@
 model,params,seed,acc,f1,timestamp
 kNN (baseline), "n_neighbors=5 weights='distance' metric='minkowski'", 42, 0.9187, 0.9337, 2026-01-29
+LinearSVC, "classifier__C=1.0", 42, 0.9325, 0.9452, 2026-02-05
+SVC (RBF Kernel), "classifier__C=1.0 classifier__gamma='scale'", 42, 0.9463, 0.9567, 2026-02-05
